@@ -97,7 +97,7 @@ public class Conversions
             System.out.println("Enter liters: ");
             double liters = keyboard.nextDouble();
             keyboard.nextLine();
-            double gallons = liters / 2.54;
+            double gallons = liters / 3.785;
             System.out.println(liters + " liters is " + gallons + " gallons");
         }
         if (selection == 10)
@@ -105,7 +105,7 @@ public class Conversions
             System.out.println("Enter gallons: ");
             double gallons = keyboard.nextDouble();
             keyboard.nextLine();
-            double liters = gallons * 2.54;
+            double liters = gallons * 3.785;
             System.out.println(gallons + " gallons is " + liters + " liters");
         }
 
